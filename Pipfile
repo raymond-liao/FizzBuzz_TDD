@@ -7,6 +7,13 @@ verify_ssl = true
 pytest = "*"
 codecov = "*"
 pytest-cov = "*"
+pre-commit = "*"
+flake8 = "*"
+yapf = "*"
+isort = "*"
+tox = "*"
+tox-pipenv = "*"
+pytest-html = "*"
 
 [packages]
 
