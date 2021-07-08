@@ -1,10 +1,5 @@
 def fizz_buzz(n: int):
-    fizz_buzz_list = []
-
-    for i in range(1, n+1):
-        fizz_buzz_list.append(value_generate(i))
-
-    return fizz_buzz_list
+    return [value_generate(i) for i in range(1, n+1)]
 
 
 def value_generate(index: int):
