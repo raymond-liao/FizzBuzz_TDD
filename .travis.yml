@@ -7,7 +7,7 @@ python: 3.7
 
 # Install the codecov pip dependency
 install:
-  - pip install pytest-cov
+  - pipenv install --dev
 
 # Run the unit test
 script:
