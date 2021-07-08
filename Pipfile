@@ -9,6 +9,7 @@ codecov = "*"
 pytest-cov = "*"
 
 [packages]
+pydantic = {extras = ["email"],version = "*"}
 
 [requires]
 python_version = "3.9"
