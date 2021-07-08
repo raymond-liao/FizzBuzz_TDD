@@ -1,4 +1,12 @@
-from tdd.fizz_buzz import fizz_buzz
+from tdd.fizz_buzz import fizz_buzz, value_generate
+
+
+def test_fizz_buzz_value_generate():
+    assert value_generate(1) == '1'
+    assert value_generate(2) == '2'
+    assert value_generate(3) == 'Fizz'
+    assert value_generate(5) == 'Buzz'
+    assert value_generate(15) == 'FizzBuzz'
 
 
 def test_fizz_buzz():
