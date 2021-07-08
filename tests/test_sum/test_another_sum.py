@@ -1,4 +1,4 @@
-from sum.another_sum import another_sum
+from src.sum.another_sum import another_sum
 
 
 def test_another_sum():

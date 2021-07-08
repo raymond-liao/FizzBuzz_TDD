@@ -1,4 +1,4 @@
-from tdd.fizz_buzz import fizz_buzz, value_generate
+from src.tdd.fizz_buzz import fizz_buzz, value_generate
 
 
 def test_fizz_buzz_value_generate():
