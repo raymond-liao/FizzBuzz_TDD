@@ -1,0 +1,14 @@
+
+[run]
+include =
+  src/*
+  tests/*
+parallel = 1
+branch = 1
+
+[paths]
+source = src/
+
+[report]
+skip_covered = True
+show_missing = True
